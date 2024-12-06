@@ -1,0 +1,85 @@
+/* General body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #8ebce3, #483c71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container to hold all elements */
+.main-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* Adds spacing between elements */
+}
+
+/* Styling for the heading */
+.heading {
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* Login container for the form */
+.login-container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: left;
+    /* Align form text to the left */
+}
+
+/* Form labels and inputs */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the login button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #4facfe, #8364f3);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Styling for the registration text */
+.register-text {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.register-text a {
+    color: #4facfe;
+    text-decoration: none;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
