@@ -1,0 +1,1 @@
+Designed and developed a Login Page to strengthen authentication concepts and enhance my frontend skills using Flask , HTML & CSS. Features: Secure login functionality & Responsive and user-friendly interface.
